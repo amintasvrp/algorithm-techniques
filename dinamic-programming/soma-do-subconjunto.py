@@ -1,3 +1,10 @@
+# Soma do Subconjunto
+
+# Dado um conjunto de números inteiros não negativos e um valor sum, 
+# implemente uma solução, usando programação dinâmica, que determina se 
+# existe um subconjunto, do conjunto dado, cuja soma dos valores é igual a sum. 
+# Caso exista, determine também o menor subconjunto possível.
+
 def matrix(conj, sum):
     conj.append(0)
     conj = sorted(conj)
