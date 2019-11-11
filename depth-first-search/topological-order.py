@@ -1,3 +1,7 @@
+# Dada a lista de adjacência de um grafo direcionado, escreva uma função que
+# retorna a ordem topológica do mesmo, recebendo também como parâmetro a raiz
+# do grafo.
+
 def topological_order(adj, root):
     visited = {}
     for i in adj.keys():
