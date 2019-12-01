@@ -1,8 +1,3 @@
-# Dado um vetor de números inteiros, cada um representando o número de
-# saltos que pode ser dado em frente no vetor, implemente uma solução, usando PD,
-# que encontre o número mínimo de saltos que podem ser dados, entre vetor[0] e
-# vetor[n], sendo n o tamanho do vetor.
-
 def min_jumps_for_each_position(jumps):
     size = len(jumps)
     min_jumps = [0] * size
@@ -22,6 +17,7 @@ def min_jumps(jumps):
     result = min_jumps_for_each_position(jumps)
     return result[0]
 
+
 def find_jumps(jumps):
     min_jumps_position = min_jumps_for_each_position(jumps)
     route = [jumps[0]]
@@ -34,7 +30,7 @@ def find_jumps(jumps):
         elif(min_jumps_position[i] < minimal):
             route.append(jumps[i])
             minimal = min_jumps_position[i]
-        i+=1
+        i += 1
     route.append(jumps[-1])
     return route
 

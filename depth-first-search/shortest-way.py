@@ -1,11 +1,6 @@
-# Dado a lista de adjacência de um grafo não direcionado, um vértice v1 como
-# vértice de partida, e um vértice v2 com o vértice de chegada, implemente um
-# algoritmo que determina o tamanho do menor caminho entre v1 e v2, sabendo que
-# cada aresta tem peso 1.
-# Como entrada você vai receber v1, v2 uma lista de adjacência.
-
 WHITE = 0
 GREY = 1
+
 
 def sizeSmallestWay(v1, v2, adjacencyList):
     colors = [WHITE] * (len(adjacencyList) + 1)
