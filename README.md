@@ -16,6 +16,8 @@ Below are the problems solved according to their respective solution strategies.
 
 #### [Floyd-Warshall](./floyd-warshall/QUESTIONS.md)
 
+#### [Kruskal](./kruskal/QUESTIONS.md)
+
 
 ## Contributors
 * **Amintas Victor** - *Initial work* - [GitHub](https://github.com/amintasvrp)
